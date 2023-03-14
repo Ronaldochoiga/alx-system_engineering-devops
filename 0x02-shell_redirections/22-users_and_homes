@@ -1,0 +1,2 @@
+#!/bain/bash
+cut -d: -f1,6 /etc/passwd | sort -k1
