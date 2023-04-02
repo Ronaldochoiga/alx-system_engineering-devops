@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -f 354
+chmod -f 354 hello
