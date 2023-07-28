@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#script displays to infinit and beyond with a null command
+while :
+do
+    echo "To infinity and beyond"
+    sleep 2
+done

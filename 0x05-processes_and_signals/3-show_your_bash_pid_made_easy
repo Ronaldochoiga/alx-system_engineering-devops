@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# A script that displays pid, process running and statement with bash word.
+pgrep -l bash
