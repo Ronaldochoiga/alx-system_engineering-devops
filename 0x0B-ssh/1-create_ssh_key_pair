@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#this script generates both the public and the private keys
+#the private key should be stored in the school
+ssh-keygen -t rsa -b 4096 -f ~/.ssh/school -N betty
