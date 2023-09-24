@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #this script connects to remote server usin g the private key
 #the remote host is 54.160.111.46
-ssh ~/.ssh/school ubuntu@54.160.111.46
+ssh -i ~/.ssh/school ubuntu@54.160.111.46
