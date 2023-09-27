@@ -1,10 +1,7 @@
 #!/usr/bin/env bash
 # Script for installing nginx on the intranet server
 
-apt-get update -y
+apt-get update
 apt-get -y install nginx
 echo "Hello World" | sudo tee /var/www/html/index.nginx-debian.html
 service nginx start
-echo "server{
-     listen 80
-     }"
