@@ -1,7 +1,16 @@
 #!/usr/bin/env bash
+<<<<<<< HEAD
 # Bash script to Install nginx web server
 
 sudo apt-get update -y
 sudo apt-get install nginx -y
 echo "Holberton School" | sudo tee /var/www/html/index.nginx-debian.html
 sudo service nginx start
+=======
+# Script for installing nginx on the intranet server
+
+apt-get update
+apt-get -y install nginx
+echo "Hello World" | sudo tee /var/www/html/index.nginx-debian.html
+service nginx start
+>>>>>>> 7c75ebcbfa677e8cd2d7fc3d8f88cfa3b31a04f3
