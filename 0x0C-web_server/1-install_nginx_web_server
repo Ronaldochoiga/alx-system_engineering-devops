@@ -1,19 +1,14 @@
 #!/usr/bin/env bash
-<<<<<<< HEAD
-# Bash script to Install nginx web server
 
-sudo apt-get update -y
-sudo apt-get install nginx -y
+# Bash script to Install nginx web server
+apt-get update -y
+apt-get install nginx -y
 echo "Hello World!" | sudo tee /var/www/html/index.nginx-debian.html
-sudo service nginx start
-=======
+service nginx start
+
 # Script for installing nginx on the intranet server
 
 sudo apt-get update -y
 sudo apt-get -y install nginx
 echo "Hello World" | sudo tee /var/www/html/index.nginx-debian.html
 service nginx start
-echo "server{
-     listen 80
-     }"
->>>>>>> 7c75ebcbfa677e8cd2d7fc3d8f88cfa3b31a04f3
