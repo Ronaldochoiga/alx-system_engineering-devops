@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# this script runs one argument to returning the user given on the parameter
+
+sudo -u "$1" whoami
